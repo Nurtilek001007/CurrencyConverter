@@ -16,8 +16,8 @@ public class CurrencyConverter1 {
         double total = convertToKZT(input, rates);
 
         // Вывод результата
-        String outSum = (int) total + "KZT";
-        int outNum = (int) total;
+        String outSum = (double ) total + "KZT";
+        double  outNum = (double ) total;
 
         System.out.println("outSum = " + outSum);
         System.out.println("outNum = " + outNum);
